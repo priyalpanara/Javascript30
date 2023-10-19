@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh; 
+    background-color: aliceblue;
+    /*vh values is for view-point 1vh=1% of view-point i.e screen/body thus 100vh=100% of screen */
+}
+button{
+    background-color: grey;
+    height: 80px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
