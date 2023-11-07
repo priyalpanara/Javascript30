@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <button class="btn">Increment</button>
+    <button class="btn">Decrement</button>
+    <p class="display"></p>
+    <script>
+        const Increment=document.querySelector('.btn')
+        const Decrement=document.querySelector('.btn')
+        const display=document.querySelector('.display')
+        Increment.addEventListener('click',DisplayContent)
+        Decrement.addEventListener('click',DisplayContent)
+        var A=0;
+        function DisplayContent(){
+           
+            if(Increment){
+            A++;
+            console.log();
+            display.innerHTML=A;
+            }
+            else{
+                --A;
+            console.log();
+            display.innerHTML=A; 
+            }
+        }
+
+    </script>
+</body>
+</html>
